@@ -1,0 +1,53 @@
+////////////////// DATATYPES ////////////////////                
+                            
+- int                       // -10^9 - 10^9 (approximate ranges)
+- long - wider range        // -10^12 - 10^12
+- long long - still wider   // -10^18 - 10^18
+
+- float
+- double
+
+- string
+- getline
+
+
+
+////////////////////// ARRAYS ///////////////////////////
+
+// used to store data of similar datatype
+// array elements are stored in consecutive memory addresses
+
+
+
+
+////////////////////// FUNCTIONS ///////////////////////////
+
+// 4 Common Types
+
+// void    
+// return
+// parameterised
+// non parameterised 
+
+// make sure every func with a return datatype returns a value
+// by default: garbage value returned
+
+
+
+
+/////////////////////// PASS BY VALUE AND REFERENCE ///////////////////////
+
+// Pass by value
+// a copy of var is created and passed
+
+// Reference variable
+// like a nickname for the same variable
+
+// Pass by Reference
+// Pointer is created
+
+// Passing an array
+// An array is always passed by reference!
+
+// Remaining STL Collections
+// for vectors, maps, lists we have to write the '&' sign to pass by REFERENCE
