@@ -1,0 +1,26 @@
+PAIRS
+
+A Pair is used to combine together two values that may be of different data types
+Defined inside the utility header: #include <utility>
+
+Syntax : pair <data_type1, data_type2> Pair_name
+
+
+
+////////////// Member Functions ////////////////
+
+// make_pair
+- Pair_name = make_pair (value1,value2);
+- Creates a pair from given tuple
+
+
+// swap
+- pair1.swap(pair2) ;
+- Swaps the contents of one pair with that of another pair object. 
+- Pairs must be of the same type.
+
+
+// tie
+- tie(var1, var2) = pair1; 
+- Tuple Unpacking
+- Datatypes of var must match with pair
