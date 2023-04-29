@@ -1,0 +1,22 @@
+LISTS AND DEQUE
+
+- Similar to vectors
+- Support front operations too
+
+// push_back
+// push_front
+// emplace_back
+// emplace_front
+// pop_back
+// pop_front
+// reverse      // only for list
+// sort         // only for list
+
+
+- Rest functions are same as vectors
+- begin, end, rbegin, rend, front, back, clear, insert, size, empty, swap
+
+- Insert function in vectors is costlier - takes a lot of time, TC more
+- List : internal operations are a doubly linked List
+- Vector : singly linked list
+
