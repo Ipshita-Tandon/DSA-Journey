@@ -1,0 +1,87 @@
+VECTORS
+
+- Dynamic Container
+- Used when the size of the dataset is unknown
+- Stores elements of the same datatype
+
+Syntax : vector <datatype> v_name;
+
+
+
+////////////// FUNCTIONS ///////////////
+
+// push_back()
+- accepts a parameter and inserts the element in the vector
+- the element is inserted at the end
+- pair has to passed as v.push_back({1,2})
+
+
+// emplace_back()
+- accepts a parameter and inserts the element in the vector
+- faster than push_back [reasoning on quora, link in description]
+- pair has to passed as v.push_back(1,2)    // auto assumes it to be a pair
+
+
+v = {10,20,30,40}
+
+// begin()
+- Points to the address of the first element (10)
+
+
+// end()
+- Points to a memory location tight AFTER the last element 
+- First do it--, then print
+
+
+// rend()
+- Moves from RHS (in reverse order) [40-->10]
+- Points to address after last ele i.e - before 10
+
+
+// rbegin()
+- Move from RHS
+- Points to first element (40)
+
+- If we do it++ with rbegin(), it moves to 30, then 20, then 10
+- To think in terms of reverse order
+
+
+// front() 
+- returns a reference to the first element of the vector
+
+
+// back() 
+– returns a reference to the last element of the vector
+
+
+// insert(index, occurrences, element)
+- Index is always written in terms of v.begin(), v.end()         //  why?
+- If occ = 2, 2 fives are added at specified position
+
+
+// erase(start, end)
+- Deletes elements from start upto end-1
+- end is optional, length of vector by default
+- Input Type: iterator or address of element
+
+say v = {10,11,12,13}
+Once deleted vector reshuffles to {10,12,12}
+
+
+// pop_back()
+- deletes the last element and returns it to the calling function
+
+
+// clear() 
+– deletes all the elements from the vector
+- structure remains
+
+
+// empty() 
+– to check if the vector is empty or not
+- return type - 0/1
+
+
+// size() 
+– returns the size of the vector
+
