@@ -1,0 +1,74 @@
+STACK
+
+- LIFO - Last In First Out
+- Indexing access is not allowed
+- All operations are executed with a TC of O(1) **
+    - i.e in constant time
+
+
+//////////////// methods /////////////////
+
+3 broad functions
+1. push or emplace
+2. pop
+3. top
+
+Other functions
+// size
+// empty
+// swap
+
+
+
+
+QUEUE
+
+- FIFO - First In First Out
+- Indexing access is not allowed
+- All operations are executed with a TC of O(1) **
+    - i.e in constant time
+
+
+//////////////// methods /////////////////
+
+4 broad functions
+1. push or emplace
+2. pop
+3. back
+4. front
+
+Other functions
+// size
+// empty
+// swap
+
+
+
+
+PRIORITY QUEUE
+
+- Largest (default) or smallest element stays at the top
+- Thus it automatically inserts new elements in between, in order to maintain an asc/desc sequence
+- Not a linear data structure
+- Inside a tree data structure is maintained
+
+
+//////////////// methods /////////////////
+
+3 broad functions
+1. push or emplace
+2. pop
+3. top
+
+Other functions
+// size
+// empty
+// swap
+
+
+*********** VERY VERY IMPORTANT ***********
+
+PUSH - LOG(N)
+TOP - O(1)
+POP - LOG(N)
+
