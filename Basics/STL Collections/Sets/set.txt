@@ -1,0 +1,53 @@
+SET
+
+- Stores everything in a sorted order
+- Only stores unique elements
+- Time complexity: LOG(N) always
+- maintains a tree data structure inside
+
+////////////// methods ///////////////
+
+// insert
+// emplace
+// find
+// erase
+// clear
+// count
+// size
+// empty
+// swap
+
+
+// find
+- returns an iterator that points to element
+- iterator: points to the memory address
+- if element is not present in the set: returns st.end()
+    - i.e iterator that points to a location right after the last ele
+
+
+// count
+- either 0 or 1 output, since set only stores unique values
+
+
+
+
+MULTISET
+
+- Stores elements in a sorted order
+- Stores duplicate elements too
+
+- all functions are the same as sets
+
+
+
+
+UNORDERED SET
+
+- Does not store elements in a sorted order
+- Only stores unique elements
+- Time Complexity : O(1)
+    - worst case TC : O(n)
+
+- lower bound and upper bound functions do not work
+- rest all functions are the same
+
